@@ -1,4 +1,4 @@
- 
+font-family: 'Poppins', sans-serif; 
 
 /* Global styles */
 *{margin:0; padding:0;}
@@ -199,7 +199,7 @@
 .contact {background-color: #2196F3;} /* Red */
 .contact:hover {background: #da190b;}
 
-.login {background-color: #e7e7e7; margin-left: 680px; margin-right: 20px;  color: black;} /* Gray */
+.login {background-color: #86CEEA; margin-left: 680px; margin-right: 20px;  color: black;} /* Gray */
 .login:hover {background: #ddd;}
 
 font-family: Arial;
@@ -323,14 +323,16 @@ img {
 	/*contact css*/
 
 	.contact-section{
- 	background-color: #E6E6E6;
+ 	background-color: #CAE5E8;
  	padding: 40px 0 55px 0;
  	/*margin-top:10px;*/
  }
  .contact-span{
+ 	margin-top: 27px;
  	font-size: 16px;
  	color: #808080;
  	font-family: 'Roboto', sans-serif;
+
  }
  .contact-title{
  	color: #3D58A6;
@@ -354,4 +356,7 @@ img {
  }
  .display-inline-block{
 	display: inline-block;
+}
+.texti{
+	padding: 10px;
 }
