@@ -1,0 +1,110 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <title>home</title>
+     <link rel="stylesheet" type="text/css" href="css/reset.css">
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+     <link rel="stylesheet" href="/bower_components/alk-rounded-mtav-med/css/alk-rounded-mtav-med.min.css">
+ <body>
+     
+     <div class="rotating-slideshow">
+         
+         <div id="slider-main" data-position="1" data-deg="0">
+             <div id="slider-btns" class="button">
+                 
+                 <a id="pos1" class="pos1" data-position="1"></a>
+                 
+                  <a id="pos2" class="pos2" data-position="4"></a>
+                 
+                  <a id="pos3" class="pos3" data-position="3"></a>
+                 
+                 
+                  <a id="pos4" class="pos4" data-position="2"></a>
+              
+             </div>
+             
+             <div class="slider-overlay">
+                 <div class="active" data-position="1">
+                     <a href="index.html">
+                     <h3 class="font" a href="index.html"> home</h3>
+                     <p>
+                         აუაიგც ისბიაებც აცნა ცაკიცჯნ იუანიპც აეცჰბა ოცინ იუბწუდნიინ აჰსუყიუჰიას იასნჰსს აბდიუაოდია აიდაოდაბჯბაიბს აკცკჯჰცუ ა აცჰბიუჰუ ასცუიუუას  აისუჰიჯფპც ოციიე წოუუწერყბ ცაოოლკ სდვ
+                     </p>
+                 </div>
+                 
+                 
+                 <div data-position="2">
+                     <h3 class="font">gallery</h3>
+                     <p>
+                         Lorem ipsum  dolor sit amet, consectetur adipisicing elit. Porro harum cupiditate excepturi voluptatum molestias labore esse cumque quaerat laboriosam ea. Odio natus, nostrum iusto voluptas blanditiis voluptatem, laboriosam ex dolor!
+                     </p>
+                     
+                     
+                 </div>
+                 
+                 <div data-position="3">
+                     <h3 class="font"><a href="#">tours</a></h3>
+                     <p>
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias voluptas pariatur molestiae iure placeat error ex delectus doloribus, animi at nihil fugit vero? Explicabo nobis, deleniti a maiores beatae totam.
+                     </p>
+                 </div>
+                 
+                 <div data-position="4">
+                     <h3 class="font"><a href="#">contact</a></h3>
+                     <p>
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolore est deserunt reiciendis animi, modi saepe repudiandae doloremque reprehenderit repellat fugiat odio earum doloribus facere, harum expedita impedit quae. Fuga.
+                     </p>
+                 </div>
+             
+             </div>
+             
+             <div class="slides">
+                 <img src="..//parallax-bg.jpg" class="active" data-position="1">
+                 
+                 <img src="..//home-bg-1.jpg" data-position="2" alt="">
+                 
+                 <img src="..//bg.jpg" data-position="3" alt="">
+                 
+                 <img src="..//pexels-photo-1250289.jpeg" data-position="4" alt="">
+             
+             </div>
+             <img src="images/button.png" class="spinner-btn" alt="">
+             
+             <img src="images/slides-overlay.jpg" class="spinner">             
+              
+         </div>
+         
+         <audio id="slider-sound" preload="auto">
+             <source src="sound/sound.mp3"> 
+         </audio>
+       
+     </div>
+     
+     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+     
+     <script src="js/jquery.rotatingSlideshow.js"></script>
+     
+     <script>
+     
+     $(document).ready(function(){
+        $('.rotating-slideshow').rotatingSlideshow({
+            sliderHolder: '#slider-main',
+            btnsHolder: '#slider-btns',
+            audioHolder: '#slider-sound',
+            auto:true,
+            autoSpeed:'6000'
+        });
+         
+     });
+     
+     
+     
+     
+     
+     </script>
+     
+     
+     
+ </body>
+ </html>
