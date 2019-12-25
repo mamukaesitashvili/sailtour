@@ -223,6 +223,7 @@ img {
 /* Hide the images by default */
 .mySlides {
   display: none;
+  text-align: center;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -241,7 +242,7 @@ img {
   margin-top: -50px;
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
@@ -272,7 +273,7 @@ img {
 .caption-container {
   text-align: center;
   background-color: #222;
-  padding: 2px 16px;
+  padding: 0px 16px;
   color: white;
 }
 
@@ -309,8 +310,8 @@ img {
  .container1{
  	margin-left: 45px;
 	width: 1170px;
-	margin-bottom: 35px;
-	margin-top: 35px;
+	margin-bottom: 25px;
+	margin-top: 25px;
 
 }
 .img{
@@ -360,4 +361,32 @@ img {
 }
 .texti{
 	padding: 10px;
+}
+
+/*tours css*/
+.image1{
+	width: 450px;
+}
+
+
+
+/*tours css*/
+
+
+.img1 {
+  float: right;
+  width: 50%;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.img2 {
+  float: right;
+  width: 50%;
+}
+.tour{
+	display: inline-block;
+	margin-top: 50px;
 }
